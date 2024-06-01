@@ -3,6 +3,8 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Technologies from './components/Technologies'
+import Project from './components/Project'
 
 function App() {
 
@@ -13,7 +15,8 @@ function App() {
         <Navbar />
         <Hero />
         <About />
-        {/* <Hero /> */}
+        <Technologies/>
+        <Project/>
       </div>
     </>
 
